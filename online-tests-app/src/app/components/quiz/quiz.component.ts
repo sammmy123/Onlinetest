@@ -13,7 +13,7 @@ export class QuizComponent implements OnInit {
   public questionList: any = [];
   public currentQuestion: number = 0;
   public points: number = 0;
-  counter = 10;
+  counter = 5;
   correctAnswer: number = 0;
   inCorrectAnswer: number = 0;
   interval$: any;
@@ -80,8 +80,8 @@ export class QuizComponent implements OnInit {
         this.counter--; // decrease 60 sec to 0sec
         if (this.counter === 0) {
           this.currentQuestion++; //increase question count + 1
-          this.counter = 5; // timer for 60 sec
-          this.points -= 5; // if not answered within 60 sec it will take minus points
+          this.counter = 10; // timer for 60 sec
+          this.points -= 10; // if not answered within 60 sec it will take minus points
         }
       });
     setTimeout(() => {
