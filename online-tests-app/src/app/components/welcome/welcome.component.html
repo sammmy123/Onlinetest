@@ -1,0 +1,36 @@
+<div class="container bg-light py-5">
+  <h1 class="display-5 fw-bold">Welcome to Online Test App</h1>
+  <p class="col-md-8 fs-4">These quiz will contain a total of 9 questions. Each Question holds 10 Points</p>
+  <h4>Rules:</h4>
+  <ol>
+    <li>Correct Question gives you 10 points</li>
+    <li>Incorrect question gives to -10 points</li>
+    <li>You will have 60 sec to answer each question</li>
+    <li>Refereshing the page will reset the Quiz</li>
+  </ol>
+  <h1 style="font-family: cursive;text-align:center">All the best!!</h1>
+
+  <div class="row g-0 text-center">
+    <div class="col-sm-6 col-md-8">
+      <label for="">Enter your name:</label>
+      <input #name type="text" class="form-control">
+    </div>
+    <div class="col-6 col-md-4">
+      <label>Please Select Subject</label>
+      <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Dropdown button
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="text-center">
+    <button class="btn btn-primary btn-lg" routerLink="/question" (click)="startQuiz()">Start the Quiz!!</button>
+  </div>
+</div>
