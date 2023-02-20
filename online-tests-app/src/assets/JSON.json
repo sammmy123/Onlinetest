@@ -1,0 +1,194 @@
+{
+  "questions": [
+    {
+      "questionText": "_______ is not a valid way to parse JSON string",
+      "options": [
+        {
+          "text": "JSON.parse()"
+        },
+        {
+          "text": "JSON.eval()",
+          "correct": true
+        },
+        {
+          "text": "jQuery.parseJSON()"
+        },
+        {
+          "text": "None of the above"
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "questionText": "JSON elements are separated by the ______",
+      "options": [
+        {
+          "text": "line break"
+        },
+        {
+          "text": "Semi-Colon"
+        },
+        {
+          "text": "comma",
+          "correct": true
+        },
+        {
+          "text": "white-space"
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "questionText": "JSON Stands for ________?",
+      "options": [
+        {
+          "text": "Java Source Open Network"
+        },
+        {
+          "text": "Java Standard Output Network"
+        },
+        {
+          "text": "JavaScript Object Notation",
+          "correct": true
+        },
+        {
+          "text": "JavaScript Output text"
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "questionText": "JSON string have used in ____________",
+      "options": [
+        {
+          "text": "Duoble Quote",
+          "correct": true
+        },
+        {
+          "text": "Single Quote"
+        },
+        {
+          "text": "Both 1 & 2"
+        },
+        {
+          "text": "None of the above"
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "questionText": "The MIME type of JSON is _____",
+      "options": [
+        {
+          "text": "application/json",
+          "correct": true
+        },
+        {
+          "text": "application/x-json"
+        },
+        {
+          "text": "application/javascript"
+        },
+        {
+          "text": "text/json"
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "questionText": "What extension is used to save a JSON file?",
+      "options": [
+        {
+          "text": ".json",
+          "correct": true
+        },
+        {
+          "text": ".js"
+        },
+        {
+          "text": ".javaN"
+        },
+        {
+          "text": ".on"
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "questionText": "What is the common usage of JSON on modern websites?",
+      "options": [
+        {
+          "text": "To store information remotely"
+        },
+        {
+          "text": "To send and receive bits of data",
+          "correct": true
+        },
+        {
+          "text": "To store information locally"
+        },
+        {
+          "text": "All of the Above"
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "questionText": "Which of the following code will throw an error?",
+      "options": [
+        {
+          "text": "JSON.parse(‘{}’);"
+        },
+        {
+          "text": "JSON.parse(null);"
+        },
+        {
+          "text": "JSON.parse(undefined);",
+          "correct": true
+        },
+        {
+          "text": "JSON.parse(‘[]’);"
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "questionText": "Which of the following is not a type in JSON ?",
+      "options": [
+        {
+          "text": "date",
+          "correct": true
+        },
+        {
+          "text": "object"
+        },
+        {
+          "text": "Array"
+        },
+        {
+          "text": "string"
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "questionText": "Who is the Father of JSON?",
+      "options": [
+        {
+          "text": "Douglas Crockford",
+          "correct": true
+        },
+        {
+          "text": "Rasmus Lerdorf"
+        },
+        {
+          "text": "Douglas Michel"
+        },
+        {
+          "text": "Dennis Ritchie"
+        }
+      ],
+      "explanation": ""
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+    "questions": [
+        {
+            "questionText": "Which is not valid data type in Javascript.",
+            "options": [
+                {
+                    "text": "Undefinded"
+                },
+                {
+                    "text": "Boolean"
+                },
+                {
+                    "text": "float",
+                    "correct": true
+                },
+                {
+                    "text": "Number"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "",
+            "options": [
+                {
+                    "text": ""
+                },
+                {
+                    "text": ""
+                },
+                {
+                    "text": ""
+                },
+                {
+                    "text": ""
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "",
+            "options": [
+                {
+                    "text": ""
+                },
+                {
+                    "text": ""
+                },
+                {
+                    "text": ""
+                },
+                {
+                    "text": ""
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "",
+            "options": [
+                {
+                    "text": ""
+                },
+                {
+                    "text": ""
+                },
+                {
+                    "text": ""
+                },
+                {
+                    "text": ""
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "",
+            "options": [
+                {
+                    "text": ""
+                },
+                {
+                    "text": ""
+                },
+                {
+                    "text": ""
+                },
+                {
+                    "text": ""
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "",
+            "options": [
+                {
+                    "text": ""
+                },
+                {
+                    "text": ""
+                },
+                {
+                    "text": ""
+                },
+                {
+                    "text": ""
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "",
+            "options": [
+                {
+                    "text": ""
+                },
+                {
+                    "text": ""
+                },
+                {
+                    "text": ""
+                },
+                {
+                    "text": ""
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "",
+            "options": [
+                {
+                    "text": ""
+                },
+                {
+                    "text": ""
+                },
+                {
+                    "text": ""
+                },
+                {
+                    "text": ""
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "",
+            "options": [
+                {
+                    "text": ""
+                },
+                {
+                    "text": ""
+                },
+                {
+                    "text": ""
+                },
+                {
+                    "text": ""
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "",
+            "options": [
+                {
+                    "text": ""
+                },
+                {
+                    "text": ""
+                },
+                {
+                    "text": ""
+                },
+                {
+                    "text": ""
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "",
+            "options": [
+                {
+                    "text": ""
+                },
+                {
+                    "text": ""
+                },
+                {
+                    "text": ""
+                },
+                {
+                    "text": ""
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "",
+            "options": [
+                {
+                    "text": ""
+                },
+                {
+                    "text": ""
+                },
+                {
+                    "text": ""
+                },
+                {
+                    "text": ""
+                }
+            ],
+            "explanation": ""
+        }
+    ]
+}
