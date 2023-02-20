@@ -80,8 +80,8 @@ export class QuizComponent implements OnInit {
         this.counter--; // decrease 60 sec to 0sec
         if (this.counter === 0) {
           this.currentQuestion++; //increase question count + 1
-          this.counter = 10; // timer for 60 sec
-          this.points -= 10; // if not answered within 60 sec it will take minus points
+          this.counter = 5; // timer for 60 sec
+          this.points -= 5; // if not answered within 60 sec it will take minus points
         }
       });
     setTimeout(() => {
@@ -96,7 +96,7 @@ export class QuizComponent implements OnInit {
   // reset counter
   resetCounter() {
     this.stopCounter();
-    this.counter = 10;
+    this.counter = 5;
     this.startCounter();
   }
   // reset question - starts from beginning again
@@ -104,7 +104,7 @@ export class QuizComponent implements OnInit {
     this.resetCounter();
     this.getAllQuestions();
     this.points = 0;
-    this.counter = 10;
+    this.counter = 5;
     this.currentQuestion = 0;
     this.progress = '0';
   }
