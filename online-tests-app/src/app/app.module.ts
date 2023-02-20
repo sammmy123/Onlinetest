@@ -8,6 +8,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { QuizComponent } from './components/quiz/quiz.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
 import { ChangeBgDirective } from './change-bg.directive';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -19,7 +20,7 @@ import { ChangeBgDirective } from './change-bg.directive';
     WelcomeComponent,
     ChangeBgDirective,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
 })

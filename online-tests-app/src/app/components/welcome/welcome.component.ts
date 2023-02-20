@@ -6,12 +6,12 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
   styleUrls: ['./welcome.component.css'],
 })
 export class WelcomeComponent implements OnInit {
-  // Getting name from user
+  // Name input from the user.
   @ViewChild('name') nameKey!: ElementRef;
   constructor() {}
 
   ngOnInit(): void {}
-  startQuiz() {
+  startTests() {
     localStorage.setItem('name', this.nameKey.nativeElement.value);
   }
 }
