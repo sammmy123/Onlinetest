@@ -62,13 +62,14 @@ export class QuizComponent implements OnInit {
     }
     // if the answer is correct
     if (option.correct) {
-      this.points += 5; // increase by 5 points
       this.correctAnswer++; // correct answer count + 1
       setTimeout(() => {
         this.currentQuestion++; // increase question count + 1
         this.resetCounter(); // reset timer
         this.getProgressPercent(); // increase progressbar %
       }, 1000);
+
+      this.points += 5; // increase by 5 points
     }
     // if wrong answer selected
     else {
