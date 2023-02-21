@@ -15,22 +15,10 @@
       <label for="">Enter your name:</label>
       <input #name type="text" class="form-control">
     </div>
-    <div class="col-6 col-md-4">
-      <label>Please Select Subject</label>
-      <div class="dropdown">
-        <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Dropdown button
-        </button>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Action</a></li>
-          <li><a class="dropdown-item" href="#">Another action</a></li>
-          <li><a class="dropdown-item" href="#">etc.</a></li>
-        </ul>
-      </div>
-    </div>
+
   </div>
   <br>
   <div class="text-center">
-    <button class="btn btn-primary btn-lg" routerLink="/question" (click)="startTests()">[Begin the test]</button>
+    <button class="btn btn-primary btn-lg" routerLink="/quiz" (click)="startTests()">[Begin the test]</button>
   </div>
 </div>
