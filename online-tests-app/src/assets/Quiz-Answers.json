@@ -1,0 +1,102 @@
+{
+  "questions": [
+    {
+      "questionText": "Which of the following is a benefit of using NoSQL database?",
+      "options": [
+        {
+          "text": "Scalability"
+        },
+        {
+          "text": "Flexible schema"
+
+        },
+        {
+          "text": "Open source technology"
+        },
+        {
+          "text": "All of the above",
+           "correct": true
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "questionText": "According to CAP theorem, which kind of a system is MongoDB?",
+      "options": [
+        {
+          "text": "CA"
+        },
+        {
+          "text": "CP",
+          "correct": true
+        },
+        {
+          "text": "AP"
+
+        },
+        {
+          "text": "CAP"
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "questionText": "Which among the following is analog of an RDBMS row in MongoDB?",
+      "options": [
+        {
+          "text": "Database"
+        },
+        {
+          "text": "Schema"
+        },
+        {
+          "text": "Collection",
+          "correct": true
+        },
+        {
+          "text": "Index"
+        }
+      ],
+      "explanation": ""
+    },
+    {
+      "questionText": "Which of the following operator allows you to execute arbitrary JavaScript as part of your query?",
+      "options": [
+        {
+          "text": "$where",
+          "correct": true
+        },
+        {
+          "text": "$slice"
+        },
+        {
+          "text": "$or"
+        },
+        {
+          "text": "$elemMatch"
+        }
+      ],
+      "explanation": "That is incorrect, the correct answer is $where"
+    },
+    {
+      "questionText": "Which of the following method is used for listing all index of a collection?",
+      "options": [
+        {
+          "text": "getIndex()"
+
+        },
+        {
+          "text": "listIndex()"
+        },
+        {
+          "text": "getIndexes()",
+           "correct": true
+        },
+        {
+          "text": "listIndexes()"
+        }
+      ],
+      "explanation": "That's incorrect. The correct answer is: getIndexes()"
+    }
+  ]
+}
