@@ -38,19 +38,19 @@ export class QuizComponent implements OnInit {
   }
   // Next question
   nextQuestion() {
-    if(!(this.questionList.length - 1 == this.currentQuestion)){
+    //if(!(this.questionList.length - 1 == this.currentQuestion)){
       this.currentQuestion++;
-      this.startCounter();
-    }else{
+      //this.startCounter();
+    //}else{
 
-    }
+    //}
 
   }
   // Previous question
   previousQuestion() {
-    if(this.currentQuestion !== 0){
+    //if(this.currentQuestion !== 0){
       this.currentQuestion--;
-    }
+    //}
 
   }
 
