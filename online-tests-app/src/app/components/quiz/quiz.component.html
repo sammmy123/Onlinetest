@@ -47,7 +47,7 @@
         <button [disabled]="currentQuestion===0" class="btn" (click)="previousQuestion()"><i
             class="fa text-primary fa-chevron-left fa-3x" aria-hidden="true">
             << Previous</i></button>
-        <button [disabled]="currentQuestion>=0 || currentQuestion<=10" class="btn" (click)="resetQuiz()"><i
+        <button [disabled]="currentQuestion>=0 || currentQuestion<=5" class="btn" (click)="resetQuiz()"><i
             class="fa fa-refresh text-primary fa-3x" aria-hidden="true">Reset</i></button>
         <button [disabled]="currentQuestion>=questionList.length-1" class="btn" (click)="nextQuestion()"><i
             class="fa text-primary fa-chevron-right fa-3x" aria-hidden="true">Next >></i></button>

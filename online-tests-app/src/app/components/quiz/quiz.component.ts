@@ -13,7 +13,7 @@ export class QuizComponent implements OnInit {
   public questionList: any = [];
   public currentQuestion: number = 0;
   public points: number = 0;
-  counter = 10;
+  counter = 20;
   correctAnswer: number = 0;
   inCorrectAnswer: number = 0;
   interval$: any;
@@ -38,11 +38,20 @@ export class QuizComponent implements OnInit {
   }
   // Next question
   nextQuestion() {
-    this.currentQuestion++;
+    if(!(this.questionList.length - 1 == this.currentQuestion)){
+      this.currentQuestion++;
+      this.startCounter();
+    }else{
+
+    }
+
   }
   // Previous question
   previousQuestion() {
-    this.currentQuestion--;
+    if(this.currentQuestion !== 0){
+      this.currentQuestion--;
+    }
+
   }
 
   // answer with parameter of question and their options.
@@ -77,15 +86,15 @@ export class QuizComponent implements OnInit {
   startCounter() {
     this.interval$ = interval(1000) // interval is 1 sec
       .subscribe((val) => {
-        this.counter--; // decrease 60 sec to 0sec
-        if (this.counter === 0) {
+        this.counter--; // decrease 20 sec to 0sec
+        if (this.counter == 0) {
           this.currentQuestion++; //increase question count + 1
-          this.counter = 10; // timer for 60 sec
-          this.points -= 10; // if not answered within 60 sec it will take minus points
+          this.counter = 20; // timer for 20 sec
+          this.points -= 5; // if not answered within 20 sec it will take minus points
         }
       });
     setTimeout(() => {
-      this.interval$.unsubscribe(); // idle time limit for 60sec
+      this.interval$.unsubscribe(); // idle time limit for 10sec
     }, 100000);
   }
   // stop counter
@@ -96,7 +105,7 @@ export class QuizComponent implements OnInit {
   // reset counter
   resetCounter() {
     this.stopCounter();
-    this.counter = 10;
+    this.counter = 20;
     this.startCounter();
   }
   // reset question - starts from beginning again
@@ -104,7 +113,7 @@ export class QuizComponent implements OnInit {
     this.resetCounter();
     this.getAllQuestions();
     this.points = 0;
-    this.counter = 10;
+    this.counter = 20;
     this.currentQuestion = 0;
     this.progress = '0';
   }
