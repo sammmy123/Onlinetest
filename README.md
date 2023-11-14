@@ -7,8 +7,3 @@
 
 
 
-## License
-
-Released under BSD-3-Clause license.
-
-(c) Geoffrey Duncan Opiyo
